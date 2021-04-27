@@ -1,0 +1,9 @@
+1YX98J,2014,Black,White,black,Toyota,RAV4,2500000,62
+ABC132,2007,Yellow,RED,yellow,Toyota,Corolla,590000,54
+MARY,2017,Dark Grey,Blue,Red,BMW,116d,5513200,84
+38000,2012,Blue,Light Green,blue,Honda,Civic,920000,178
+12345,2012,blue,green,blue,Honda,Hero,10000000,94
+123443,2011,green,red,Black,Hero,Cycle,125535350,109
+1234ew,2012,Lime,Yellow,Lime,Toyota,Veranda,12233300,25
+1Xes,2011,Green,Blue,White,Toyota,Corolla,100000,118
+1233,2022,green,blue,Yellow,Hero,Honda,120000,46

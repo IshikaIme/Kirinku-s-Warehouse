@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: silver;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.FoundcarAsManufacturerController">
+   <children>
+      <Label layoutX="200.0" layoutY="52.0" prefHeight="103.0" prefWidth="399.0" text="         𝓒𝓪𝓻 𝓯𝓸𝓾𝓷𝓭!!!">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="216.0" layoutY="26.0" prefHeight="43.0" prefWidth="494.0" text="𝓒𝓸𝓷𝓰𝓻𝓪𝓽𝓾𝓵𝓪𝓽𝓲𝓸𝓷𝓼!!!">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="216.0" fitWidth="182.0" layoutX="561.0" layoutY="147.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Pics/DanceBot-3-LG.gif" />
+         </image>
+      </ImageView>
+      <TextField fx:id="reg" layoutX="196.0" layoutY="155.0" prefHeight="28.0" prefWidth="262.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <TextField fx:id="year" layoutX="196.0" layoutY="196.0" prefHeight="28.0" prefWidth="262.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <TextField fx:id="color1" layoutX="194.0" layoutY="241.0" prefHeight="28.0" prefWidth="262.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <TextField fx:id="color2" layoutX="196.0" layoutY="288.0" prefHeight="26.0" prefWidth="262.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="color3" layoutX="196.0" layoutY="330.0" prefHeight="26.0" prefWidth="262.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="carmake" layoutX="196.0" layoutY="372.0" prefHeight="26.0" prefWidth="262.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="carmodel" layoutX="196.0" layoutY="413.0" prefHeight="26.0" prefWidth="262.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="price" layoutX="196.0" layoutY="456.0" prefHeight="26.0" prefWidth="262.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="quantity" layoutX="196.0" layoutY="504.0" prefHeight="26.0" prefWidth="262.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="101.0" layoutY="156.0" prefHeight="26.0" prefWidth="80.0" text="𝙍𝙚𝙜. 𝙉𝙤:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="197.0" text="𝙔𝙚𝙖𝙧:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="100.0" layoutY="242.0" text="𝘾𝙤𝙡𝙤𝙧1:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="100.0" layoutY="286.0" text="𝘾𝙤𝙡𝙤𝙧2:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="100.0" layoutY="331.0" text="𝘾𝙤𝙡𝙤𝙧3:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="373.0" text="𝘾𝙖𝙧𝙈𝙖𝙠𝙚:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="414.0" text="𝘾𝙖𝙧𝙈𝙤𝙙𝙚𝙡:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="106.0" layoutY="457.0" text="𝙋𝙧𝙞𝙘𝙚:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="505.0" text="𝙌𝙪𝙖𝙣𝙩𝙞𝙩𝙮:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="579.0" layoutY="407.0" mnemonicParsing="false" onAction="#backpressed" text="𝘾𝙝𝙚𝙚𝙧𝙨!!">
+         <font>
+            <Font size="33.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>

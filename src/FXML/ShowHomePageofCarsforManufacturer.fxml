@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane blendMode="DARKEN" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #A9A9A9;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.HomepageOfCarControllerforManufacturer">
+   <effect>
+      <InnerShadow />
+   </effect>
+   <children>
+      <Pane layoutY="-1.0" prefHeight="622.0" prefWidth="331.0" style="-fx-background-color: #708090;">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <children>
+            <Button fx:id="home2" layoutX="46.0" layoutY="220.0" mnemonicParsing="false" onAction="#Home2" prefHeight="50.0" prefWidth="289.0" text="𝙃𝙤𝙢𝙚">
+               <font>
+                  <Font size="19.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <ImageView fitHeight="59.0" fitWidth="64.0" layoutX="15.0" layoutY="212.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../Pics/clipart-house-jpeg-17.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="showallcars2" layoutX="46.0" layoutY="294.0" mnemonicParsing="false" onAction="#showAllCars2" prefHeight="49.0" prefWidth="289.0" text="𝙎𝙝𝙤𝙬 𝘼𝙡𝙡 𝘾𝙖𝙧𝙨">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </Button>
+            <Button fx:id="searchAcar2" layoutX="56.0" layoutY="372.0" mnemonicParsing="false" onAction="#searchAcar2" prefHeight="49.0" prefWidth="281.0" text="𝙎𝙚𝙖𝙧𝙘𝙝 𝘼 𝘾𝙖𝙧">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </Button>
+            <Circle fill="#edf4fa" layoutX="47.0" layoutY="315.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <ImageView fitHeight="59.0" fitWidth="64.0" layoutX="18.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Pics/45de5ba24afaf2c714231ca6e1b1a28a-taxi-travel-round-icon-by-vexels.png" />
+               </image>
+            </ImageView>
+            <Circle fill="#edf1f5" layoutX="48.0" layoutY="391.0" radius="29.0" stroke="#211f1f" strokeType="INSIDE" strokeWidth="2.0" />
+            <ImageView fitHeight="30.0" fitWidth="51.0" layoutX="30.0" layoutY="379.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Pics/img_466156.png" />
+               </image>
+            </ImageView>
+            <Line endX="230.20004272460938" endY="-3.0517578125E-5" layoutX="101.0" layoutY="466.0" startX="-100.0" stroke="#eae1e1" />
+            <ButtonBar layoutX="66.0" layoutY="499.0" prefHeight="40.0" prefWidth="200.0" />
+            <Line endX="225.20004272460938" endY="-3.0517578125E-5" layoutX="106.0" layoutY="478.0" startX="-100.0" stroke="#f5f0f0" />
+            <Button fx:id="credits2" layoutX="56.0" layoutY="500.0" mnemonicParsing="false" onAction="#Credits2" prefHeight="39.0" prefWidth="281.0" text="𝘿𝙖𝙨𝙝𝙗𝙤𝙖𝙧𝙙">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Circle fill="#ffffff" layoutX="51.0" layoutY="519.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+            <ImageView blendMode="DARKEN" fitHeight="49.0" fitWidth="58.0" layoutX="24.0" layoutY="495.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Pics/peony-clipart-realistic-19.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="3.0" layoutY="103.0" prefHeight="59.0" prefWidth="332.0" style="-fx-background-color: #778899;">
+               <effect>
+                  <SepiaTone level="0.19" />
+               </effect>
+               <children>
+                  <Text fill="#e8dbdb" layoutX="46.0" layoutY="43.0" stroke="#f0e0e0" strokeType="OUTSIDE" strokeWidth="0.0" text="𝘽𝙤𝙣𝙟𝙤𝙪𝙧! 𝘾𝙞𝙖𝙤!" wrappingWidth="239.39999389648438">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Line endX="-482.0000305175781" layoutX="817.0" layoutY="115.0" startX="-17.0" stroke="#e8dddd" />
+      <Text fill="#f5e4e4" layoutX="368.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="▀▄▀▄▀▄ 𝙆𝙞𝙧𝙞𝙣𝙠𝙪 𝙒𝙖𝙧𝙚𝙝𝙤𝙪𝙨𝙚 ▄▀▄▀▄▀" wrappingWidth="396.8000854492187">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Pane layoutX="337.0" layoutY="186.0" prefHeight="107.0" prefWidth="466.0">
+         <children>
+            <Pane layoutY="-46.0" prefHeight="139.0" prefWidth="409.0" style="-fx-background-color: #778899;">
+               <effect>
+                  <SepiaTone level="0.11" />
+               </effect>
+               <children>
+                  <Text fill="#faf5f5" layoutX="39.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="𝙍𝙚𝙖𝙙𝙮 𝙩𝙤 𝙫𝙞𝙚𝙬 𝙨𝙤𝙢𝙚 𝙤𝙛 𝙩𝙝𝙚 𝙘𝙤𝙤𝙡𝙚𝙨𝙩 𝙘𝙖𝙧𝙨 𝙤𝙛 𝙩𝙝𝙚 𝙩𝙤𝙬𝙣?" wrappingWidth="327.85009765625">
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <ImageView fitHeight="139.0" fitWidth="319.0" layoutX="407.0" layoutY="334.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Pics/e107d64cd980fa41ff9b852ad6c6a7f897f83fcb.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

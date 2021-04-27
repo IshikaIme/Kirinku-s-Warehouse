@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ClientLoginController">
+   <children>
+      <TextField fx:id="username" layoutX="213.0" layoutY="213.0" prefHeight="47.0" prefWidth="384.0" promptText="𝙀𝙣𝙩𝙚𝙧 𝙔𝙤𝙪𝙧 𝙐𝙨𝙚𝙧𝙉𝙖𝙢𝙚" style="-fx-background-color: #f2d4d4;">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Lighting light="$null" specularConstant="0.0" specularExponent="21.87">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+            </Lighting>
+         </effect>
+      </TextField>
+      <TextField fx:id="password" layoutX="213.0" layoutY="277.0" prefHeight="46.0" prefWidth="384.0" promptText="𝙀𝙣𝙩𝙚𝙧 𝙔𝙤𝙪𝙧 𝙋𝙖𝙨𝙨𝙬𝙤𝙧𝙙" style="-fx-background-color: #f2e3e3;">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <effect>
+            <Lighting light="$null" specularConstant="0.0">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+            </Lighting>
+         </effect>
+      </TextField>
+      <Button fx:id="login" layoutX="509.0" layoutY="348.0" mnemonicParsing="false" onAction="#loginAction2" prefHeight="30.0" prefWidth="88.0" text="𝙇𝙤𝙜𝙞𝙣">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <ColorAdjust brightness="0.48" />
+         </effect>
+      </Button>
+      <Text fx:id="title" fill="#ffebeb" fontSmoothingType="LCD" layoutX="196.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="꧁༒☬𝓚𝓲𝓻𝓲𝓷𝓴𝓾 𝓦𝓪𝓻𝓮𝓱𝓸𝓾𝓼𝓮☬༒꧂" wrappingWidth="459.3370361328125">
+         <font>
+            <Font size="23.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ff8383" />
+         </effect>
+      </Text>
+      <ImageView fx:id="carimg" fitHeight="143.0" fitWidth="250.0" layoutX="272.0" layoutY="47.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Pics/0cb5922ba1096823.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="60.0" layoutX="150.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pics/585e4bcdcb11b227491c3396.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="57.0" layoutX="145.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pics/6738375_preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="progress" fitHeight="132.0" fitWidth="292.0" layoutX="105.0" layoutY="337.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Pics/create-loading-animation-for-your-business-needs.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="reset" layoutX="405.0" layoutY="347.0" mnemonicParsing="false" onAction="#resetAction2" prefHeight="31.0" prefWidth="88.0" text="𝙍𝙚𝙨𝙚𝙩" textFill="#8a8484">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </Button>
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>

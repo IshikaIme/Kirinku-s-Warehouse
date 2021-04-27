@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="dialogue" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="658.0" prefWidth="845.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.CarDialoguePaneController">
+   <children>
+      <AnchorPane layoutX="38.0" layoutY="14.0" prefHeight="609.0" prefWidth="788.0" style="-fx-background-color: #708090;">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <children>
+            <GridPane layoutX="25.0" layoutY="42.0" prefHeight="531.0" prefWidth="626.0" style="-fx-background-color: silver;">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="322.20001220703125" minWidth="10.0" prefWidth="121.99998779296875" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="558.9999847412109" minWidth="10.0" prefWidth="480.40001220703135" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="253.00000610351563" minHeight="0.0" prefHeight="56.40000610351562" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="241.79999389648438" minHeight="10.0" prefHeight="50.79999389648437" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="406.3999816894531" minHeight="0.0" prefHeight="61.40001220703124" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="406.3999816894531" minHeight="10.0" prefHeight="55.80000610351564" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="406.3999816894531" minHeight="0.0" prefHeight="52.79998779296872" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="406.3999816894531" minHeight="0.0" prefHeight="58.4000183105469" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="406.3999816894531" minHeight="7.399999999999999" prefHeight="63.40003662109376" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="406.3999816894531" minHeight="10.0" prefHeight="53.79996337890623" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="406.3999816894531" minHeight="10.0" prefHeight="56.80002441406248" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <TextField fx:id="regno" prefHeight="39.0" prefWidth="382.0" promptText="Enter the reg No" GridPane.columnIndex="1">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <Label prefHeight="28.0" prefWidth="100.0" text="  𝙍𝙚𝙜 𝙉𝙤:">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="28.0" prefWidth="134.0" text="  𝘾𝙤𝙡𝙤𝙧1" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <Label text="   𝙔𝙚𝙖𝙧" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="year" prefHeight="38.0" prefWidth="559.0" promptText="Enter the year made" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="color1" prefHeight="44.0" prefWidth="559.0" promptText="Choose first option for color" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+                  <Label prefHeight="39.0" prefWidth="94.0" text="  𝘾𝙤𝙡𝙤𝙧2" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="color2" prefHeight="38.0" prefWidth="516.0" promptText="Choose second option for color" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+                  <Label prefHeight="28.0" prefWidth="86.0" text="  𝘾𝙤𝙡𝙤𝙧3" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="color3" prefHeight="38.0" prefWidth="481.0" promptText="Choose third option for color" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+                  <Label prefHeight="28.0" prefWidth="101.0" text=" 𝘾𝙖𝙧𝙈𝙖𝙠𝙚" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="carmake" prefHeight="43.0" prefWidth="559.0" promptText="Enter the carmake" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+                  <Label text=" 𝘾𝙖𝙧𝙈𝙤𝙙𝙚𝙡" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="carmodel" promptText="Enter the CarModel" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+                  <Label text="  𝙋𝙧𝙞𝙘𝙚" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="price" promptText="Enter the price" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+                  <Label text="  𝙌𝙪𝙖𝙣𝙩𝙞𝙩𝙮" GridPane.rowIndex="8">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="quantity" promptText="Enter the quantity" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+      <Button fx:id="ok" layoutX="719.0" layoutY="354.0" mnemonicParsing="false" onAction="#okpressed" prefHeight="106.0" prefWidth="86.0" text="𝙊𝙆">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancel" layoutX="719.0" layoutY="473.0" mnemonicParsing="false" onAction="#cancelpressed" prefHeight="134.0" prefWidth="86.0" text="𝘾𝙖𝙣𝙘𝙚𝙡">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</AnchorPane>

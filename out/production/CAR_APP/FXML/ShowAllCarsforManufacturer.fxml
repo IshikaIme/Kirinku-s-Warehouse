@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="Mainpane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: silver;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ShowAllCarsControllerforManufacturer">
+   <children>
+      <TableView fx:id="table" layoutX="24.0" layoutY="100.0" prefHeight="396.0" prefWidth="749.0">
+        <columns>
+          <TableColumn fx:id="TableRegNo" prefWidth="95.20001220703125" text="Registration No" />
+          <TableColumn fx:id="Tableyear" minWidth="2.4000244140625" prefWidth="68.00006103515625" text="Year" />
+            <TableColumn fx:id="Tablecarmake" prefWidth="103.20001220703125" text="Car Make" />
+            <TableColumn fx:id="Tablecarmodel" prefWidth="87.20001220703125" text="Car Model" />
+            <TableColumn prefWidth="248.79998779296875" text="Color">
+               <columns>
+                  <TableColumn fx:id="tablecolor1" prefWidth="75.0" text="Color1" />
+                  <TableColumn fx:id="Tablecolor2" prefWidth="75.0" text="Color2" />
+                  <TableColumn fx:id="Tablecolor3" prefWidth="75.0" text="Color3" />
+               </columns>
+            </TableColumn>
+            <TableColumn fx:id="Tableprice" prefWidth="89.59991455078125" text="Price" />
+            <TableColumn fx:id="Tablequantity" prefWidth="77.60009765625" text="Quantity" />
+        </columns>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TableView>
+      <Circle fx:id="button" accessibleRole="BUTTON" fill="#e0eefa" layoutX="712.0" layoutY="52.0" onTouchPressed="#homepressed" radius="38.0" stroke="BLACK" strokeLineCap="ROUND">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Circle>
+      <Pane layoutX="156.0" layoutY="24.0" prefHeight="56.0" prefWidth="358.0" style="-fx-background-color: grey;">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <children>
+            <Text layoutX="85.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="𝘼𝙡𝙡 𝘾𝙖𝙧𝙨 𝙇𝙞𝙨𝙩">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Button fx:id="addcar" layoutX="72.0" layoutY="517.0" mnemonicParsing="false" onAction="#addcarpressed" prefHeight="56.0" prefWidth="147.0" text="𝘼𝙙𝙙 𝘾𝙖𝙧">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="deletecar" layoutX="247.0" layoutY="517.0" mnemonicParsing="false" onAction="#deletecarpressed" prefHeight="56.0" prefWidth="175.0" text="𝘿𝙚𝙡𝙚𝙩𝙚 𝘾𝙖𝙧">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="refreshbutton" layoutX="477.0" layoutY="517.0" mnemonicParsing="false" onAction="#refreshpressed" text="𝙍𝙚𝙛𝙧𝙚𝙨𝙝">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button blendMode="COLOR_BURN" layoutX="560.0" layoutY="31.0" mnemonicParsing="false" onAction="#homepressed" prefHeight="36.0" prefWidth="102.0" style="-fx-background-color: #e0eefa;" text="𝙃𝙤𝙢𝙚">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <ImageView fitHeight="67.0" fitWidth="76.0" layoutX="678.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pics/home.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="637.0" layoutY="517.0" mnemonicParsing="false" onAction="#backpressed2" text="𝘽𝙖𝙘𝙠">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>
